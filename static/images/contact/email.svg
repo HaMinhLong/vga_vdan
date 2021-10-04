@@ -1,0 +1,18 @@
+<svg width="113" height="113" viewBox="0 0 113 113" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M56.1622 5.5129C28.0087 5.5129 5.18574 28.3358 5.18574 56.4894C5.18574 84.6429 28.0087 107.466 56.1622 107.466C84.3157 107.466 107.139 84.6429 107.139 56.4894C107.139 28.3358 84.3157 5.5129 56.1622 5.5129Z" fill="url(#paint0_linear)"/>
+<path d="M84.2445 84.5708C99.7535 69.0618 99.7535 43.9167 84.2445 28.4078C68.7355 12.8988 43.5905 12.8988 28.0815 28.4078C12.5725 43.9167 12.5725 69.0618 28.0815 84.5708C43.5905 100.08 68.7355 100.08 84.2445 84.5708Z" fill="#88075A"/>
+<rect x="30.2207" y="37.7705" width="54.5177" height="38.1417" fill="url(#pattern0)"/>
+<path d="M55.9242 63.2587L31.5415 42.875C31.3515 43.4191 31.127 44.0065 31.127 44.6197V66.8776C31.127 69.7797 33.7095 72.3277 36.6115 72.3277H75.2455C78.1476 72.3277 80.3501 69.7884 80.3501 66.8776V44.6197C80.3501 44.0324 80.3242 43.4623 80.1428 42.9355L55.9242 63.2587Z" fill="white"/>
+<path d="M55.9244 58.7503L78.096 40.2754C77.2755 39.7399 76.2995 39.498 75.2457 39.498H36.6031C35.5753 39.498 34.6166 39.7313 33.8047 40.2408L55.9244 58.7503Z" fill="white"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0"/>
+</pattern>
+<linearGradient id="paint0_linear" x1="107.139" y1="56.4902" x2="5.18755" y2="56.4902" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="0.5763" stop-color="#DEDEDE"/>
+<stop offset="1" stop-color="#CACACA"/>
+</linearGradient>
+<image id="image0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ8AAAC8CAYAAABmBitRAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA"/>
+</defs>
+</svg>

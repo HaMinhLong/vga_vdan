@@ -101,7 +101,8 @@ li {
   overflow: hidden;
   display: inline-block;
   font-weight: 500;
-  height: 48px;
+  min-height: 48px;
+  max-height: 48px;
 }
 
 .button-green {
@@ -192,6 +193,9 @@ header .logo-page img {
 header .navigation li {
   list-style: none;
   margin-right: 40px;
+}
+header .navigation li > img {
+  display: none;
 }
 header .navigation li a {
   font-weight: 500;
@@ -313,7 +317,8 @@ header .search-box.active {
 }
 .about-us-home .main-introduce .right-side .introduce .content .short-description,
 .mission-introduce .main-introduce .right-side .introduce .content .short-description {
-  height: 120px;
+  min-height: 120px;
+  max-height: 120px;
   margin-top: 9px;
 }
 
@@ -360,6 +365,8 @@ header .search-box.active {
   top: 50%;
   right: 15px;
   z-index: -1;
+  width: 287px;
+  height: 278px;
 }
 .technology-home .main-technology .right-side .technology {
   position: relative;
@@ -383,6 +390,7 @@ header .search-box.active {
 }
 .technology-home .main-technology .right-side .technology .content .short-description {
   text-align: initial;
+  height: 100px;
 }
 .technology-home .main-technology .right-side .technology:nth-child(1), .technology-home .main-technology .right-side .technology:nth-child(3) {
   position: relative;
@@ -411,6 +419,7 @@ header .search-box.active {
 }
 .product .content .product-name,
 .product .content .product-name:hover {
+  display: inline-block;
   color: #000;
   height: 48px;
   overflow: hidden;
@@ -581,6 +590,8 @@ header .search-box.active {
   position: absolute;
   bottom: 0;
   width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .projects-home .projects .project .content .slider-button div {
   width: 20px;
@@ -589,6 +600,9 @@ header .search-box.active {
   border-radius: 50%;
   border: 2px solid #005d1f;
   margin-left: 10px;
+}
+.projects-home .projects .project .content .slider-button div:first-child {
+  margin-left: 0px;
 }
 .projects-home .projects .project .content .slider-button div.active {
   background: #005d1f;
@@ -611,6 +625,9 @@ header .search-box.active {
 .articles {
   margin-top: 36px;
 }
+.articles .article .image-box {
+  width: 100%;
+}
 .articles .article .image-box img {
   border-radius: 20px;
 }
@@ -619,7 +636,8 @@ header .search-box.active {
 }
 .articles .article .content .short-description {
   margin-top: 8px;
-  height: 124px;
+  min-height: 124px;
+  max-height: 124px;
 }
 
 .articles-home {
@@ -645,7 +663,7 @@ footer .company .logo-page {
 footer .company .company-name {
   margin-top: 16px;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 26px;
 }
@@ -795,14 +813,18 @@ footer .links .link img {
   top: 50%;
   left: -5%;
 }
-.technology-page .technology-about .technology .image-box p:nth-child(3), .technology-page .technology-about .technology .image-box p:nth-child(4) {
+.technology-page .technology-about .technology .image-box p:nth-child(3) {
+  top: 50%;
+  left: 43%;
+}
+.technology-page .technology-about .technology .image-box p:nth-child(4), .technology-page .technology-about .technology .image-box p:nth-child(5) {
   font-weight: 500;
   bottom: -32px;
 }
-.technology-page .technology-about .technology .image-box p:nth-child(3) {
+.technology-page .technology-about .technology .image-box p:nth-child(4) {
   left: 13%;
 }
-.technology-page .technology-about .technology .image-box p:nth-child(4) {
+.technology-page .technology-about .technology .image-box p:nth-child(5) {
   right: 20%;
 }
 .technology-page .technology-about .technology .content .hand-box {
@@ -885,6 +907,7 @@ footer .links .link img {
   padding: 16px 20px 36px 20px;
 }
 .products-page .categories > div .category {
+  position: relative;
   display: flex;
   margin-bottom: 20px;
 }
@@ -893,8 +916,19 @@ footer .links .link img {
   height: 19px;
   margin-right: 17px;
 }
+.products-page .categories > div .category .icon-down {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  display: none;
+}
 .products-page .categories > div .category.active p {
   color: #09ae53;
+}
+.products-page .products {
+  padding: 0px 0px;
 }
 .products-page .products .product {
   margin-bottom: 20px;
@@ -977,7 +1011,7 @@ footer .links .link img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 25px;
   height: 180px;
 }
 .articles-page .articles-container .article .image-box {

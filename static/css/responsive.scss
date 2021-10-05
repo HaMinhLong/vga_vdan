@@ -1,0 +1,1176 @@
+$mainColor: #09ae53;
+
+@media (max-width: 1440px) {
+  .technology-page {
+    .technology-introduce {
+      .technology-box {
+        .technology {
+          height: 750px;
+          .image-box {
+            .technology-image {
+              bottom: 100px;
+            }
+          }
+          &:nth-child(1) {
+            padding-right: 80px;
+          }
+          &:nth-child(2) {
+            padding-left: 80px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .container-box {
+    width: calc(87.3% + 30px);
+  }
+  header {
+    .navigation {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 76px;
+      background: #fff;
+      z-index: 10000;
+      > div {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: space-between;
+        li {
+          width: 16%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin-right: 0px;
+          width: 100%;
+          img {
+            display: initial;
+            width: 25px;
+            height: 25px;
+            margin-bottom: 5px;
+          }
+        }
+        li.active {
+          background: $mainColor;
+          border-radius: 10px;
+          padding: 5px 0px;
+          a {
+            color: #fff;
+          }
+        }
+      }
+    }
+    .icon-box {
+      img {
+        margin-left: 20px;
+      }
+    }
+  }
+  .banner {
+    height: 40vh;
+  }
+  .technology-home {
+    .main-technology {
+      .left-side {
+        height: 350px;
+        img {
+          &:nth-child(2) {
+            left: 144px;
+          }
+          &:nth-child(3) {
+            left: 333px;
+          }
+          &:nth-child(4) {
+            left: 500px;
+          }
+          &:nth-child(5) {
+            right: 50px;
+          }
+        }
+      }
+      .right-side {
+        .technology {
+          &:nth-child(1),
+          &:nth-child(3) {
+            left: 0px;
+          }
+        }
+      }
+    }
+  }
+  .products-page {
+    .products {
+      .product {
+        .image-box {
+          height: 130px;
+        }
+      }
+    }
+  }
+  .product-details-page {
+    .details {
+      .content {
+        .container {
+          .buy {
+            height: 50px;
+          }
+          .button-green {
+            height: 50px;
+          }
+        }
+      }
+    }
+  }
+  .technology-page {
+    .technology-introduce {
+      .technology-box {
+        .technology {
+          height: 690px;
+          &:nth-child(1) {
+            padding-right: 0px;
+          }
+          &:nth-child(2) {
+            padding-left: 0px;
+          }
+        }
+      }
+    }
+    .technology-about {
+      .technology {
+        .image-box {
+          p {
+            &:nth-child(1) {
+              top: 20px;
+              left: 17%;
+            }
+            &:nth-child(2) {
+              left: -7%;
+            }
+          }
+        }
+      }
+    }
+    .technology-different {
+      .technology-box {
+        .technology {
+          .image-box {
+            height: 370px;
+            .icon {
+              height: 250px;
+            }
+          }
+          &:nth-child(1) {
+            .image-box {
+              .icon {
+                left: 105px;
+              }
+            }
+          }
+          &:nth-child(2) {
+            .image-box {
+              .icon {
+                right: 105px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .categories {
+      margin-top: 36px;
+    }
+    .links {
+      margin-top: 36px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .descriptions {
+    display: block;
+    img {
+      width: 100%;
+    }
+  }
+  .about-us-home,
+  .mission-introduce {
+    .main-introduce {
+      .left-side {
+        img {
+          width: 70%;
+        }
+      }
+      .right-side {
+        margin-top: 36px;
+        .introduce {
+          .content {
+            .short-description {
+              min-height: 72px;
+              max-height: 120px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .technology-home {
+    .main-technology {
+      .left-side {
+        height: 350px;
+        img {
+          &:nth-child(2) {
+            left: 74px;
+          }
+          &:nth-child(3) {
+            left: 215px;
+          }
+          &:nth-child(4) {
+            left: 345px;
+          }
+          &:nth-child(5) {
+            right: 0px;
+          }
+        }
+      }
+    }
+  }
+  .projects-home {
+    .projects {
+      .project {
+        .content {
+          .short-description {
+            height: 100px;
+          }
+        }
+      }
+    }
+  }
+  .introduce-page {
+    .company-introduce {
+      .introduce {
+        padding-right: 15px;
+        .title-box {
+          height: 55px;
+          padding-left: 70px;
+        }
+        .short-description {
+          padding-left: 70px;
+        }
+      }
+    }
+  }
+  .products-page {
+    .categories {
+      > div {
+        .category {
+          .icon-down {
+            display: initial;
+          }
+        }
+      }
+    }
+    .products {
+      margin-top: 36px;
+    }
+  }
+  .product-details-page {
+    .details {
+      .content {
+        margin-top: 36px;
+      }
+    }
+  }
+  .technology-page {
+    .technology-introduce {
+      .technology-box {
+        .technology {
+          height: 550px;
+          .image-box {
+            span {
+              font-size: 47px;
+            }
+            .technology-image {
+              height: 64%;
+              bottom: 85px;
+            }
+          }
+        }
+      }
+    }
+    .technology-about {
+      .technology {
+        padding-left: 0px;
+        .image-box {
+          padding-left: 80px;
+          p {
+            &:nth-child(2) {
+              width: 45px;
+              left: 6%;
+            }
+            &:nth-child(3) {
+              width: 45px;
+              left: 49%;
+            }
+          }
+        }
+        .content {
+          margin-top: 50px;
+          padding-left: 30px;
+          padding-right: 30px;
+        }
+      }
+    }
+    .technology-different {
+      .technology-box {
+        margin-top: 36px;
+        margin-bottom: 36px;
+        .technology {
+          .image-box {
+            .technology-image {
+              width: 80%;
+            }
+            .icon {
+              width: 86%;
+            }
+          }
+          &:nth-child(1) {
+            top: 0px;
+            margin-bottom: 220px;
+            .image-box {
+              .icon {
+                bottom: -100px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .articles-page {
+    .categories-box {
+      overflow-x: scroll;
+      > div {
+        width: 950px;
+        .category {
+          width: 190px;
+        }
+      }
+    }
+    .articles-container {
+      .article {
+        &:nth-child(3),
+        &:nth-child(4) {
+          flex-direction: row;
+        }
+      }
+    }
+  }
+  .cart-page {
+    .cart {
+      table {
+        thead {
+          tr {
+            th {
+              &:nth-child(2) {
+                width: 42%;
+              }
+              &:nth-child(5) {
+                width: 20%;
+              }
+            }
+          }
+        }
+        tbody {
+          tr {
+            td {
+              &:nth-child(2) {
+                img {
+                  width: 80px;
+                  height: 65px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 540px) {
+  .title-type-1 {
+    font-size: 18px;
+  }
+  .article-title,
+  .article-title:hover {
+    min-height: 24px;
+    max-height: 48px;
+  }
+  .bread-crumb {
+    margin-top: 90px;
+    margin-bottom: 36px;
+  }
+  header {
+    height: 64px;
+    .logo-page {
+      img {
+        width: 102px;
+      }
+    }
+    .navigation {
+      overflow-x: scroll;
+      overflow-y: hidden;
+      > div {
+        width: 600px;
+        li {
+          width: 100px;
+        }
+      }
+    }
+  }
+  .banner {
+    margin-top: 64px;
+    .message,
+    .phone {
+      display: none;
+    }
+    .slider-button {
+      bottom: 20px;
+      div {
+        width: 15px;
+        height: 15px;
+      }
+    }
+  }
+  .about-us-home,
+  .mission-introduce {
+    margin-top: 36px;
+    .main-introduce {
+      margin-top: 16px;
+      .right-side {
+        .introduce {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          .image-box {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+          }
+          .content {
+            margin-top: 8px;
+            width: 100%;
+            .introduce-title {
+              text-align: center;
+            }
+            .short-description {
+              min-height: 120px;
+              max-height: 120px;
+              margin-top: 9px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .technology-home {
+    margin-top: 36px;
+    .main-technology {
+      .left-side {
+        height: 270px;
+        margin-bottom: 36px;
+        img {
+          &:nth-child(1) {
+            width: 142px;
+            height: 214px;
+          }
+          &:nth-child(2) {
+            width: 168px;
+            height: 250px;
+            left: 35px;
+          }
+          &:nth-child(3) {
+            width: 158px;
+            height: 219px;
+            left: 120px;
+          }
+          &:nth-child(4) {
+            width: 177px;
+            height: 254px;
+            left: 243px;
+          }
+          &:nth-child(5) {
+            right: 15px;
+          }
+        }
+      }
+      .right-side {
+        .technology {
+          border: none;
+          padding-left: 0px;
+          padding-right: 0px;
+          display: flex;
+          flex-direction: column;
+          height: 200px;
+          .image-box {
+            position: static;
+            width: 80px;
+            height: 80px;
+          }
+          .content {
+            margin-top: 8px;
+            .short-description {
+              text-align: justify;
+              height: 144px;
+            }
+          }
+          &:nth-child(2),
+          &:nth-child(3) {
+            border: none;
+            .image-box {
+              position: static;
+              width: 80px;
+              height: 80px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .products-home {
+    margin-top: 16px;
+    padding-top: 16px;
+  }
+  .projects-home {
+    margin-top: 36px;
+    padding: 0px 0px 44px;
+    .projects {
+      .project {
+        .content {
+          margin-top: 8px;
+          .slider-button {
+            bottom: -25px;
+            div {
+              width: 15px;
+              height: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .partners-home {
+    margin-top: 36px;
+  }
+  .articles-home {
+    margin-top: 36px;
+  }
+  .articles {
+    .article {
+      .content {
+        .short-description {
+          min-height: 72px;
+        }
+      }
+    }
+  }
+  footer {
+    margin-top: 36px;
+    padding: 36px 0px 32px;
+    margin-bottom: 76px;
+    .company {
+      .logo-page {
+        width: 154px;
+      }
+    }
+  }
+  .product-details-page {
+    .details {
+      .image-box {
+        height: 330px;
+      }
+      .content {
+        .container {
+          .col-12 {
+            &:nth-child(1) {
+              padding: 0;
+            }
+            &:nth-child(2) {
+              padding: 0;
+            }
+          }
+          .button-green {
+            margin-top: 8px;
+          }
+        }
+      }
+    }
+  }
+  .introduce-page {
+    .company-introduce {
+      .introduce {
+        .title-box {
+          height: 45px;
+        }
+      }
+    }
+    .diagram-introduce {
+      .desktop {
+        display: none;
+      }
+      .mobile {
+        display: initial;
+        width: 100%;
+      }
+    }
+  }
+  .technology-page {
+    .technology-introduce {
+      .technology-box {
+        .technology {
+          height: 650px;
+          .image-box {
+            .technology-image {
+              height: 68%;
+            }
+          }
+        }
+      }
+    }
+    .technology-about {
+      .technology {
+        padding-left: 0px;
+        .image-box {
+          padding-left: 80px;
+          p {
+            font-size: 14px;
+            &:nth-child(1) {
+              top: 0;
+              left: 24%;
+            }
+            &:nth-child(2) {
+              width: 45px;
+              top: 45%;
+              left: 10%;
+            }
+            &:nth-child(3) {
+              top: 45%;
+              width: 40px;
+              left: 51%;
+            }
+            &:nth-child(4) {
+              left: 20%;
+            }
+            &:nth-child(5) {
+              right: 15%;
+            }
+          }
+        }
+        .content {
+          margin-top: 50px;
+        }
+      }
+    }
+
+    .technology-different {
+      margin-top: 36px;
+      .technology-box {
+        .technology {
+          .image-box {
+            span {
+              font-size: 16px;
+            }
+          }
+          &:nth-child(1) {
+            .image-box {
+              .icon {
+                left: 80px;
+              }
+            }
+          }
+          &:nth-child(2) {
+            .image-box {
+              .icon {
+                right: 80px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .contact-page {
+    .map {
+      height: 300px;
+    }
+    .information-company {
+      .information {
+        .image-box {
+          width: 45px;
+          height: 45px;
+        }
+        .content {
+          width: calc(100% - 60px);
+        }
+      }
+    }
+  }
+  .cart-page {
+    .cart {
+      table {
+        thead {
+          tr {
+            th {
+              &:nth-child(3),
+              &:nth-child(4) {
+                display: none;
+              }
+              &:nth-child(5) {
+                width: 3%;
+                color: $mainColor;
+              }
+            }
+          }
+        }
+        tbody {
+          tr {
+            td {
+              &:nth-child(3),
+              &:nth-child(4) {
+                display: none;
+              }
+              &:nth-child(2) {
+                text-align: left;
+                > div {
+                  .price {
+                    display: initial;
+                  }
+                  .amount {
+                    display: flex;
+                    margin-top: 10px;
+                    margin-left: 0px;
+                    .box {
+                      margin-left: 0px;
+                      .increment,
+                      .decrement {
+                        width: 30px;
+                        height: 30px;
+                        background: #c0dd98;
+                        cursor: pointer;
+                      }
+                      .decrement {
+                        border-radius: 5px 0px 0px 5px;
+                        img {
+                          width: 15px;
+                          height: 4px;
+                          position: relative;
+                          left: 50%;
+                          transform: translateX(-50%);
+                        }
+                      }
+                      .increment {
+                        border-radius: 0px 5px 5px 0px;
+                        img {
+                          width: 14px;
+                          height: 14px;
+                          position: relative;
+                          left: 50%;
+                          transform: translateX(-50%);
+                        }
+                      }
+                      p {
+                        width: 30px;
+                        height: 30px;
+                        border: 1px #c0dd98 solid;
+                      }
+                    }
+                  }
+                }
+              }
+              &:nth-child(5) {
+                p {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+      .total {
+        .text {
+          font-size: 14px;
+        }
+        .price {
+          margin-left: 20px;
+          font-size: 18px;
+        }
+        .button-green {
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 414px) {
+  .banner {
+    height: 30vh;
+  }
+  .technology-home {
+    .main-technology {
+      .left-side {
+        height: 195px;
+        img {
+          &:nth-child(1) {
+            width: 102px;
+            height: 144px;
+          }
+          &:nth-child(2) {
+            width: 117px;
+            height: 165px;
+            left: 35px;
+          }
+          &:nth-child(3) {
+            width: 110px;
+            height: 147px;
+            left: 120px;
+          }
+          &:nth-child(4) {
+            width: 122px;
+            height: 167px;
+            left: 190px;
+          }
+          &:nth-child(5) {
+            right: 15px;
+            width: 205px;
+            height: 200px;
+          }
+        }
+      }
+      .right-side {
+        .technology {
+          border: none;
+          padding-left: 0px;
+          padding-right: 0px;
+          display: flex;
+          flex-direction: column;
+          .image-box {
+            position: static;
+            width: 80px;
+            height: 80px;
+          }
+          .content {
+            margin-top: 8px;
+            .short-description {
+              text-align: justify;
+            }
+          }
+          &:nth-child(2),
+          &:nth-child(3) {
+            border: none;
+            .image-box {
+              position: static;
+              width: 80px;
+              height: 80px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .introduce-page {
+    .company-introduce {
+      .introduce {
+        .title-box {
+          height: 35px;
+          padding-left: 40px;
+        }
+        .short-description {
+          padding-left: 40px;
+        }
+      }
+    }
+  }
+  .technology-page {
+    .technology-introduce {
+      .technology-box {
+        .technology {
+          height: 550px;
+          .image-box {
+            .technology-image {
+              height: 65%;
+            }
+            span {
+              top: 19px;
+            }
+          }
+        }
+      }
+    }
+    .technology-about {
+      .technology {
+        .image-box {
+          p {
+            &:nth-child(3) {
+              top: 45%;
+              width: 40px;
+              left: 52%;
+            }
+          }
+        }
+      }
+    }
+    .technology-different {
+      margin-top: 36px;
+      .technology-box {
+        .technology {
+          .image-box {
+            height: 290px;
+            .icon {
+              height: 220px;
+            }
+            span {
+              font-size: 16px;
+            }
+          }
+          &:nth-child(1) {
+            margin-bottom: 180px;
+            .image-box {
+              .icon {
+                left: 70px;
+                bottom: -80px;
+              }
+              span {
+                left: 83px;
+              }
+            }
+          }
+          &:nth-child(2) {
+            .image-box {
+              .icon {
+                right: 70px;
+              }
+              span {
+                right: 66px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .products-page {
+    .products {
+      .product {
+        > div {
+          .image-box {
+            height: 110px;
+          }
+          .content {
+            .btn-group {
+              height: 100%;
+              flex-wrap: wrap;
+              .btn-cart {
+                width: 100%;
+                height: 40px;
+              }
+              .btn-buy-now {
+                width: 100%;
+                height: 40px;
+                margin-top: 8px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 375px) {
+  .introduce-page {
+    .company-introduce {
+      .introduce {
+        &:last-child {
+          .title-box {
+            height: 70px;
+          }
+        }
+      }
+    }
+  }
+  .technology-page {
+    .technology-introduce {
+      .technology-box {
+        .technology {
+          height: 512px;
+          .image-box {
+            .technology-image {
+              height: 63%;
+            }
+          }
+        }
+      }
+    }
+    .technology-about {
+      .technology {
+        .image-box {
+          p {
+            &:nth-child(3) {
+              top: 45%;
+              width: 40px;
+              left: 53%;
+            }
+          }
+        }
+      }
+    }
+    .technology-different {
+      margin-top: 36px;
+      .technology-box {
+        .technology {
+          .image-box {
+            height: 270px;
+            span {
+              font-size: 14px;
+            }
+          }
+          &:nth-child(1) {
+            margin-bottom: 180px;
+            .image-box {
+              .icon {
+                left: 60px;
+                bottom: -80px;
+              }
+              span {
+                display: inline-block;
+                width: 150px;
+                left: 83px;
+              }
+            }
+          }
+          &:nth-child(2) {
+            .image-box {
+              .icon {
+                right: 60px;
+              }
+              span {
+                display: inline-block;
+                width: 150px;
+                right: 66px;
+                top: -80px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 320px) {
+  .technology-home {
+    .main-technology {
+      .left-side {
+        height: 195px;
+        img {
+          &:nth-child(1) {
+            width: 92px;
+            height: 134px;
+          }
+          &:nth-child(2) {
+            width: 107px;
+            height: 155px;
+            left: 25px;
+          }
+          &:nth-child(3) {
+            width: 100px;
+            height: 137px;
+          }
+          &:nth-child(4) {
+            width: 112px;
+            height: 157px;
+            left: 150px;
+          }
+          &:nth-child(5) {
+            width: 195px;
+            height: 190px;
+          }
+        }
+      }
+      .right-side {
+        .technology {
+          height: 220px;
+          .content {
+            .short-description {
+              text-align: justify;
+            }
+          }
+        }
+      }
+    }
+  }
+  .technology-page {
+    .technology-introduce {
+      .technology-box {
+        .technology {
+          height: 450px;
+          .image-box {
+            .technology-image {
+              height: 60%;
+            }
+            span {
+              top: 12px;
+            }
+          }
+        }
+      }
+    }
+    .technology-different {
+      margin-top: 36px;
+      .technology-box {
+        .technology {
+          .image-box {
+            height: 270px;
+            span {
+              font-size: 14px;
+            }
+          }
+          &:nth-child(1) {
+            margin-bottom: 180px;
+            .image-box {
+              .icon {
+                left: 50px;
+                bottom: -70px;
+              }
+              span {
+                display: inline-block;
+                width: 150px;
+                left: 83px;
+                top: -55px;
+              }
+            }
+          }
+          &:nth-child(2) {
+            .image-box {
+              .icon {
+                right: 50px;
+                top: -70px;
+              }
+              span {
+                display: inline-block;
+                width: 150px;
+                right: 66px;
+                top: -55px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

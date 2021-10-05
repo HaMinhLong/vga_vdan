@@ -12,6 +12,7 @@ $gradient1: radial-gradient(50% 50% at 50% 50%, #d82349 0%, #f28fbb 100%);
 $pink: #ec0873;
 $purple: #88075a;
 $grey: #f8f9fa;
+
 body {
   font-family: "Raleway" !important;
   width: 100%;
@@ -96,7 +97,8 @@ li {
   overflow: hidden;
   display: inline-block;
   font-weight: 500;
-  height: 48px;
+  min-height: 48px;
+  max-height: 48px;
 }
 .button-green {
   width: 174px;
@@ -184,6 +186,9 @@ header {
     li {
       list-style: none;
       margin-right: 40px;
+      > img {
+        display: none;
+      }
       a {
         font-weight: 500;
         transition: 0.3s;
@@ -299,7 +304,8 @@ header {
             font-weight: 500;
           }
           .short-description {
-            height: 120px;
+            min-height: 120px;
+            max-height: 120px;
             margin-top: 9px;
           }
         }
@@ -347,6 +353,8 @@ header {
           top: 50%;
           right: 15px;
           z-index: -1;
+          width: 287px;
+          height: 278px;
         }
       }
     }
@@ -371,6 +379,7 @@ header {
           width: 100%;
           .short-description {
             text-align: initial;
+            height: 100px;
           }
         }
         &:nth-child(1),
@@ -404,6 +413,7 @@ header {
     margin-top: 10px;
     .product-name,
     .product-name:hover {
+      display: inline-block;
       color: #000;
       height: 48px;
       overflow: hidden;
@@ -560,6 +570,8 @@ header {
           position: absolute;
           bottom: 0;
           width: 100%;
+          left: 50%;
+          transform: translateX(-50%);
           div {
             width: 20px;
             height: 20px;
@@ -567,6 +579,9 @@ header {
             border-radius: 50%;
             border: 2px solid $boldColor;
             margin-left: 10px;
+            &:first-child {
+              margin-left: 0px;
+            }
           }
           div.active {
             background: $boldColor;
@@ -593,6 +608,7 @@ header {
   margin-top: 36px;
   .article {
     .image-box {
+      width: 100%;
       img {
         border-radius: 20px;
       }
@@ -601,7 +617,8 @@ header {
       margin-top: 16px;
       .short-description {
         margin-top: 8px;
-        height: 124px;
+        min-height: 124px;
+        max-height: 124px;
       }
     }
   }
@@ -626,7 +643,7 @@ footer {
     .company-name {
       margin-top: 16px;
       font-weight: 500;
-      font-size: 22px;
+      font-size: 18px;
       font-weight: 500;
       line-height: 26px;
     }
@@ -785,15 +802,19 @@ footer {
             top: 50%;
             left: -5%;
           }
-          &:nth-child(3),
-          &:nth-child(4) {
+          &:nth-child(3) {
+            top: 50%;
+            left: 43%;
+          }
+          &:nth-child(4),
+          &:nth-child(5) {
             font-weight: 500;
             bottom: -32px;
           }
-          &:nth-child(3) {
+          &:nth-child(4) {
             left: 13%;
           }
-          &:nth-child(4) {
+          &:nth-child(5) {
             right: 20%;
           }
         }
@@ -889,12 +910,21 @@ footer {
       border-radius: 20px;
       padding: 16px 20px 36px 20px;
       .category {
+        position: relative;
         display: flex;
         margin-bottom: 20px;
         img {
           width: 19px;
           height: 19px;
           margin-right: 17px;
+        }
+        .icon-down {
+          position: absolute;
+          top: 50%;
+          right: 0px;
+          transform: translateY(-50%);
+          cursor: pointer;
+          display: none;
         }
       }
       .category.active {
@@ -905,6 +935,7 @@ footer {
     }
   }
   .products {
+    padding: 0px 0px;
     .product {
       margin-bottom: 20px;
       > div {
@@ -989,7 +1020,7 @@ footer {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-top: 20px;
+      margin-top: 25px;
       height: 180px;
       .image-box {
         width: 48%;
